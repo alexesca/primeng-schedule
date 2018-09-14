@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'schedule';
+  events = [
+    {
+      title: 'Event 1',
+      start: '2018-09-01'
+    }
+  ]
 }
