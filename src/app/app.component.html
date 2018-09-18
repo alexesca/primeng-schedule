@@ -2,3 +2,22 @@
 <p-calendar [(ngModel)]="value"></p-calendar>
 <h1>Schedule</h1>
 <p-schedule [events]="events"></p-schedule>
+<h1>P-table</h1>
+<p-table [value]="events">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Vin</th>
+            <th>Year</th>
+            <th>Brand</th>
+            <th>Color</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-car>
+        <tr>
+            <td>{{car.vin}}</td>
+            <td>{{car.year}}</td>
+            <td>{{car.brand}}</td>
+            <td>{{car.color}}</td>
+        </tr>
+    </ng-template>
+</p-table>

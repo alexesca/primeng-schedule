@@ -9,8 +9,10 @@ export class AppComponent {
   title = 'schedule';
   events = [
     {
-      title: 'Event 1',
-      start: '2018-09-01'
+      vin: 13,
+      year: 1232,
+      brand: 123213,
+      color: 123213
     }
   ]
 }
