@@ -1,0 +1,110 @@
+body {
+
+  // P-table or data table or table
+  .ui-table {
+
+    .ui-table-caption,
+    .ui-table-summary,
+    .ui-table-scrollable-header {
+      font-weight: normal;
+      color: black;
+      min-height: 20px;
+    }
+
+    .ui-table-caption {
+      background-color: white;
+      border: 1px solid black;
+      border-bottom: 0px;
+      color: black;
+      min-height: 20px;
+    }
+
+    .ui-table-wrapper {
+      .ui-table-thead {
+        tr {
+          th {
+            font-weight: normal;
+            background-color: white;
+            border: 1px solid black;
+            vertical-align: middle;
+            text-align: left;
+            color: black;
+            min-height: 20px;
+            padding: 4px 2px 4px 2px;
+          }
+
+          .estimate-table-dropdown {
+            margin: 0%;
+            padding: 2px 3px 2px 0px;
+            border: 1px solid black;
+
+            p-celleditor {
+              margin: 0px;
+              padding: 0px;
+            }
+          }
+        }
+      }
+
+      .ui-table-tbody {
+        tr {
+          td {
+            font-weight: normal;
+            border: 1px solid black;
+            vertical-align: middle;
+            color: black;
+            min-height: 20px;
+            padding: 2px;
+          }
+        }
+
+        tr:nth-child(even) {
+          background-color: #f5f5f5 !important;
+        }
+
+        .ui-state-highlight {
+          background-color: #e8e8e8 !important;
+        }
+      }
+
+      .ui-table-tfoot {
+        tr {
+          td {
+            font-weight: normal;
+            border: 1px solid black;
+            vertical-align: middle;
+            color: black;
+            min-height: 20px;
+            padding: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  // Columns width
+
+  .ui-table .ui-table-thead>tr>th.width-50,
+  .ui-table .ui-table-tfoot>tr>td.width-50 {
+    width: 50%;
+    min-height: 20px;
+  }
+
+  .ui-table .ui-table-thead>tr>th.width-40,
+  .ui-table .ui-table-tfoot>tr>td.width-40 {
+    width: 40%;
+    min-height: 20px;
+  }
+
+  .ui-table .ui-table-thead>tr>th.width-7,
+  .ui-table .ui-table-tfoot>tr>td.width-7 {
+    width: 7%;
+    min-height: 20px;
+  }
+
+  .ui-table .ui-table-thead>tr>th.width-5,
+  .ui-table .ui-table-tfoot>tr>td.width-5 {
+    width: 5%;
+    min-height: 20px;
+  }
+}

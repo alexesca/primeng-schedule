@@ -1,0 +1,31 @@
+body {
+
+  // Panel menu styles
+  .ui-panelmenu {
+    .ui-panelmenu-panel {
+      .ui-panelmenu-header {
+        border-radius: 0%;
+
+        a {
+          color: black;
+          background-color: #f5f5f5;
+          border: 1px solid #DBDBDB;
+          border-radius: 0%;
+
+          .ui-panelmenu-icon {
+            color: black;
+          }
+        }
+
+        a:hover {
+          color: black;
+          background-color: #e8e8e8;
+
+          .ui-panelmenu-icon {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
